@@ -1,5 +1,5 @@
 
-# Steps to contribute to anyone repository⚡
+# Steps to contribute to my repository⚡
 
 1. Fork 
 
