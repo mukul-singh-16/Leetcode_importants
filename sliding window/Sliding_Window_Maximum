@@ -1,0 +1,30 @@
+package sliding_window;
+
+class Sliding_Window_Maximum {
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        int n = nums.length;
+        int[] res = new int[n-k+1];
+        int i = 0, j = 0;
+        LinkedList<Integer> dq = new LinkedList<>();
+        int a=0;
+        while(j<nums.length){
+            while(!dq.isEmpty() && dq.peek()<nums[j])
+            {
+                dq.removeFirst();
+            }
+
+            dq.push(nums[j]);
+
+            if(j-i+1 == k)
+            {
+                res[a++]=dq.getLast();
+                if(res[a-1]==nums[i])
+                dq.removeLast();
+                i++;
+            }
+            j++;
+            
+        }
+        return res;
+    }
+}
