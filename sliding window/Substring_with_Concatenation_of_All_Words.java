@@ -1,4 +1,4 @@
-class 30_Substring_with_Concatenation_of_All_Words {
+class Substring_with_Concatenation_of_All_Words {
     public List<Integer> findSubstring(String s, String[] words)
     {
         int n = words.length;
