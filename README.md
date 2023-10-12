@@ -1,3 +1,7 @@
+please give a star  to this repository. 
+as soon as we reach 200+ stars we will start accepting your pull request.
+Because if we accept pr before 200 stars  our repo is not counted and  your pr is not counted in hacksquad.
+so firstly we have to reach 200+ stars on this repo.
 
 # Steps to contribute to my repository⚡
 
